@@ -1,0 +1,12 @@
+// login 
+GET /api/login
+BODY{
+    "tipoId":"Cédula de ciudadanía",
+    "numeroId":"123456789",
+    "fechanac": "1980-05-12"
+}
+
+// Perfil
+GET /api/perfil/1
+params = id
+Headers: Authorization
