@@ -1,12 +1,11 @@
 // login 
-GET /api/login
+POTS /api/login
 BODY{
-    "tipoId":"Cédula de ciudadanía",
-    "numeroId":"123456789",
-    "fechanac": "1980-05-12"
+    "tipoId":"Registro civil",
+    "numeroId":"6757975448",
+    "fechanac": "2001-11-24"
 }
 
 // Perfil
-GET /api/perfil/1
-params = id
-Headers: Authorization
+GET /api/perfil
+Headers: Authorization --> Token
